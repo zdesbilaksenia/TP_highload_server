@@ -4,6 +4,6 @@ WORKDIR /app
 
 ADD . /app
 
-EXPOSE 81
+EXPOSE 80
 
 CMD ["python3", "main.py"]
